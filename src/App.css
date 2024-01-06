@@ -1,0 +1,174 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Bree serif";
+  padding: 20px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main-heading {
+  font-size: 20px;
+  margin: 5px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.designer {
+  color: yellow;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.welcome-msg {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 0;
+}
+.description {
+  color: #282c34;
+}
+.button-container {
+  display: flex;
+}
+.project-btn {
+  background-color: yellow;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #000000;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.linkedIn-btn {
+  background-color: transparent;
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  color: #000000;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.girl-img {
+  height: 300px;
+  width: 300px;
+  margin-right: 10px;
+  margin: 20px;
+}
+.add-projects {
+  text-align: center;
+  font-size: 40px;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.form-details {
+  display: flex;
+  flex-direction: column;
+}
+.add-btn-container {
+  text-align: right;
+}
+.add-btn {
+  background-color: yellow;
+  height: 30px;
+  width: 100px;
+
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #000000;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.project-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.project-view-btn {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+.project-content {
+  width: 50%;
+}
+.projects-heading {
+  font-size: 50px;
+  text-align: center;
+}
+.contact-container {
+  text-align: center;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-img {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
